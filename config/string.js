@@ -5,6 +5,7 @@ const string={
 	'Ability':'Ability',
 	'Add':'Add',
 	'txt':"Write Your New Ability",
+	'hero_name':"Write Your Hero Name",
 	'Filter':'Filter',
 	'realname':'realname',
 	'heroname':'heroname',

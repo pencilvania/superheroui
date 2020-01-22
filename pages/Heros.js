@@ -125,7 +125,7 @@ SearchHeros = e => {
 				 <form onSubmit={this.SearchHeros}>
 					 <div className="row" style={{border:0}}>
 						<div className="col-lg-4">
-							<input type="text" className="inputTxt" placeholder={strings['txt']}/>
+							<input type="text" className="inputTxt" placeholder={strings['hero_name']}/>
 						</div>
 						<div className="col-lg-1">
 							<button className="inputSub">{strings['Filter']}</button>
