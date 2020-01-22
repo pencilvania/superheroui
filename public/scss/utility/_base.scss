@@ -1,0 +1,23 @@
+body {
+    font-family: 'Vaziri','Helvetica';
+    font-size:14px;
+    margin:0;
+    padding: 0; 
+    text-align:justify;
+    line-height:30px;
+    word-spacing: 2px;
+    user-select: none;-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;  
+    @extend %gradient;
+}
+html{
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    
+    padding: 0;
+}

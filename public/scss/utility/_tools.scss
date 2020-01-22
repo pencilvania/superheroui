@@ -1,0 +1,55 @@
+%gradient{
+    background-image: linear-gradient(to bottom, #e339f8, #58c0df);
+}
+
+%radius{
+    border-radius: 30px;
+}
+
+%opacityBg {
+    background: url(../img/bg.png) repeat 0 0;
+    padding: 30px;
+    margin: 100px auto;
+    border-radius: 5px 5px  0 0;
+    box-shadow: 0 0 5px $black;
+}
+
+%Input{
+    width:96%;  
+    padding: 2% 5px;
+}
+
+%select{
+    width:96%;  
+    padding: 2% 5px;
+}
+%subButton{
+    @extend %gradient,%radius;
+    border:0;
+    padding: 10px 0;
+    display: block;
+}
+
+%large-screen{
+    width: $display-large-screen;
+}
+
+%Border{
+    border:1px solid $gray
+}
+
+%li-List{
+    @extend %Border;
+    list-style: none;
+    display: inline-block;
+    padding:0 40px 0 10px;
+    text-align: center;
+    border-bottom:0;
+    margin-right: 5px;
+}
+
+%li-List-Selected{
+    padding-bottom:1px;
+    background-color: $white;
+    margin-bottom:-1px;
+}

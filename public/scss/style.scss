@@ -1,0 +1,111 @@
+@import 'utility/utility.scss';
+
+.LoginHolder{
+
+    #message{
+        color: $red;
+    }
+
+    @extend %opacityBg;
+    width:400px;
+
+    .inputTxt{
+        width: 96%;
+        padding: 10px 2%;
+        margin: 10px 0  
+    }
+
+    .inputSub{
+        @extend %subButton;
+        width: 70%;
+        margin: 0 auto;
+
+        &:hover{
+
+            background-image: linear-gradient(to top, #e339f8, #58c0df);
+        }
+    }
+}
+
+
+.HomeHolder{
+    @extend %opacityBg,%large-screen;
+	
+		.row{
+			@extend %Border;
+			border-left: 0;
+			border-right: 0;
+			border-top: 0;
+			margin: 2px 0 15px;
+			padding-bottom: 15px;
+
+			.inputTxt{
+				@extend %Input;
+			}
+		}
+		.Header{
+			font-weight: bold;
+		}
+		.inputSub{
+			@extend %subButton;
+			width: 100%;
+		}
+    .p-tabview{
+
+        ul{
+            @extend %Border;
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+        }
+        .p-unselectable-text{
+            @extend %Border,%li-List;
+			a{
+				background-color:transparent !important;
+				border:0 !important;
+			}
+        }
+        .p-tabview-selected{
+            @extend %li-List-Selected;
+			a{
+				color:$red !important
+			}
+			
+        }
+
+    }
+
+    .signOut{
+        text-align: right;
+    }
+
+    .p-overlaypanel-content{
+
+        img{
+            width:300px;
+            height:100px
+        }
+    }
+    .Ability-List{
+        @extend %select
+    }
+    
+}
+
+.Ability{
+    width:40%;
+	margin-top:5px;
+
+    #AddHiden,#AddHidenAbility{
+        display: none;
+    }
+
+}
+
+.pi{
+    font-size: 1.5rem;
+}
+
+.pi-times{
+    color: $red;
+}
