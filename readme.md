@@ -1,5 +1,3 @@
-<p align="center"><img src="https://cdn-site.aptoide.com/imgs/v.1/aptoide-logo.svg" width="300"></p>
-
 
 ## About Super Heros UI
 
